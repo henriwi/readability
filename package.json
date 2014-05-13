@@ -1,0 +1,23 @@
+{
+  "name": "readability",
+  "version": "0.0.0",
+  "description": "Readability backend written in Node",
+  "main": "readability.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/henriwi/readability.git"
+  },
+  "author": "Henrik Wingerei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henriwi/readability/issues"
+  },
+  "homepage": "https://github.com/henriwi/readability",
+  "dependencies": {
+    "express": "^4.2.0",
+    "node-readability": "^0.3.2"
+  }
+}
