@@ -8,7 +8,7 @@ app.get("/", function(req, res) {
   console.log(req);
 
   read(url, function(err, article, meta) {
-		res.json(article.content)
+		res.send(article.content)
 	});
 
 }).listen(8000, '127.0.0.1');
