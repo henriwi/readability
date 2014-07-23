@@ -20,6 +20,7 @@
     "express": "^4.2.0",
     "feedparser": "^0.17.0",
     "node-readability": "^0.3.2",
+    "nodemailer": "^0.6.5",
     "request": "^2.36.0"
   }
 }
